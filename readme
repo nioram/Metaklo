@@ -1,0 +1,12 @@
+SimpleSetupGuide
+1. Grab a Raspberry Pi. Anyone will do.
+2. Flash Raspbian on SD-Card. I used the minimal version.
+3. Boot the Pi. Do the network config. Do the raspi-config.
+4. $_ sudo apt update && sudo apt upgrade
+5. $_ sudo apt install php5 apache2 php5-curl wiringpi
+6. Copy all the files in htmlfiles to your htmldir
+7. Copy twitter-php and all other files to your installdir
+8. Make changes to your run.sh
+9. Make changes to send.php
+10. ....
+11. PROFIT
